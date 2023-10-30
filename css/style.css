@@ -46,6 +46,7 @@ section{
     position: sticky;
     top: 0; left: 0; right: 0;
     background: #6B3434;
+    /* background-attachment: scroll; */
     /* padding: 10px; */
     padding-top: 20px;
     padding-bottom: 20px;
@@ -114,7 +115,7 @@ header .navbar a{
     position: absolute;
     top: 100%;
     right: 7%;
-    background-color: #ffff;
+    background-color: #6B3434;
     width: 400px;
     height: 50px;
     display: flex;
@@ -139,8 +140,15 @@ header .navbar a{
 .header .search-form .bx{
     cursor: pointer;
     font-size: 20px;
-    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 12px;
     color: #000;
+}
+.header .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: #6B3434;
 }
 
 .header .icons i,
@@ -479,7 +487,7 @@ header .navbar a{
     padding: 10px
 }
 
-/* files destinasi_sejarah */
+/* files destinasi_sejarah_alam starts */
 .destinasi-sejarah{
     position: sticky;
     background-color: #DCD5D5;
@@ -524,6 +532,11 @@ header .navbar a{
     border-radius: 10%;
 }
 
+.destinasi-alam{
+    position: sticky;
+    background-color: #DCD5D5;
+    
+}
 .alam-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -554,19 +567,393 @@ header .navbar a{
     border: 0px #000;
     border-radius: 10%;
 }
+/* files destinasi_sejarah_alam ends */
+
+.borobudur {
+    background-image: url(/projek-web/images/borobudurbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.borobudur .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.borobudur .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* style penjelasan borobudur dan prambanan */
+.penjelasan{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: #DCD5D5;
+}
+
+.penjelasan h1{
+    color: #6B3434;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.penjelasan .penjelasan-1{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #320A0A;
+}
+
+.penjelasan h2{
+    color: #6B3434;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.penjelasan .penjelasan-2{
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+.penjelasan .penjelasan-2 img{
+    /* padding-left: 50px; */
+    align-items: center;
+    border: 0px solid #000;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+
+.penjelasan .makna{
+    font-size: 15px;
+    font-weight: bolder;
+    color:#673C3C;
+}
+/* style penjelasan borobudur dan prambanan ends */
+
+/* prambanan bg starts */
+.prambanan {
+    background-image: url(/projek-web/images/parambananbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.prambanan .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.prambanan .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* prambanan bg end */
+
+/* kotatua bg starts */
+.kotatua {
+    background-image: url(/projek-web/images/kotatuabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.kotatua .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.kotatua .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.penjelasan .sejarah{
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #673C3C;
+}
 
 
+/* monas bg starts */
+.monas {
+    background-image: url(/projek-web/images/monasbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.monas .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.monas .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* monas bg ends */
 
 
+/* rotterdam bg starts */
+.rotterdam {
+    background-image: url(/projek-web/images/rotterdambg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.rotterdam .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.rotterdam .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* rotterdam bg ends */
 
 
+/* danautoba bg starts */
+.danautoba {
+    background-image: url(/projek-web/images/danautobabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.danautoba .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.danautoba .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* danautoba bg ends */
 
 
+/* desaadat bg starts */
+.desaadat {
+    background-image: url(/projek-web/images/desaadatbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.desaadat .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.desaadat .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* desaadat bg starts */
 
 
+/* tanahlot bg starts */
+.tanahlot {
+    background-image: url(/projek-web/images/tanahlotbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.tanahlot .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.tanahlot .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* tanahlot bg ends */
 
 
+/* tana toraja bg starts */
+.tanatoraja {
+    background-image: url(/projek-web/images/tanatorajabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
 
+.tanatoraja .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.tanatoraja .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* tana toraja bg starts */
+
+
+/* waerebo bg starts */
+.waerebo {
+    background-image: url(/projek-web/images/waerebobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.waerebo .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.waerebo .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* waerebo bg ends */
 
 
 
