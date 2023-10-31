@@ -956,6 +956,336 @@ header .navbar a{
 /* waerebo bg ends */
 
 
+/* pink beach bg starts */
+.pinkbeach {
+    background-image: url(/projek-web/images/pinkbeachbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.pinkbeach .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.pinkbeach .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* pink beach bg ends */
+
+
+/* rajaampat bg starts*/
+.rajaampat {
+    background-image: url(/projek-web/images/rajaampatbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.rajaampat .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.rajaampat .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* rajaampat bg ends */
+
+
+
+/* rinjani starts */
+.rinjani {
+    background-image: url(/projek-web/images/rinjanibg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.rinjani .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.rinjani .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* rinjani ends */
+
+
+/* semeru starts */
+.semeru {
+    background-image: url(/projek-web/images/semerubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.semeru .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.semeru .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* semeru ends */
+
+
+/* lekeleke starts */
+.lekeleke {
+    background-image: url(/projek-web/images/lekelekebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.lekeleke .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.lekeleke .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* lekeleke ends */
+
+
+/* bromo starts */
+.bromo {
+    background-image: url(/projek-web/images/bromobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.bromo .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.bromo .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* bromo ends */
+
+
+/* kerinci starts */
+.kerinci {
+    background-image: url(/projek-web/images/kerincibg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.kerinci .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.kerinci .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* kerinci ends */
+
+
+/* bunaken starts */
+.bunaken {
+    background-image: url(/projek-web/images/bunakenbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.bunaken .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.bunaken .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* bunaken ends */
+
+
+/* padar starts */
+.padar {
+    background-image: url(/projek-web/images/padarbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.padar .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.padar .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* padar ends */
+
+
+/* tangkuban perahu starts */
+.tangkubanperahu {
+    background-image: url(/projek-web/images/tangkubanperahubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    /* position: fixed; */
+    height: 500px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.tangkubanperahu .title h1{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    /* align-items: center; */
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+.tangkubanperahu .title p{
+    position: static;
+    text-align: center;
+    color: #FFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* tangkuban perahu ends */
+
 
 
 
