@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Roboto&family=Rosario:ital,wght@0,400;0,500;0,700;1,300;1,400;1,600&display=swap');
 
 *{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rosario', sans-serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -32,12 +32,12 @@ html::-webkit-scrollbar-thumb{
 }
 
 section{
-    /* position: fixed;
-    top: 0; left: 0; right: 0; bottom:0;
+    /* position: fixed; */
+    /* top: 0; left: 0; right: 0; bottom:0;
     background: #DCD5D5; 
     padding: 35px 8%;
     display: flex */
-    padding: 5px 5%
+    padding: 10px 5%;
 
 }
 
@@ -66,11 +66,6 @@ section{
     color: #DCD5D5;
 } */
 
-.home{
-    background: #DCD5D5; 
-    position: sticky
-}
-
 .btn{
     margin-top: 22px;
     display: inline-block;
@@ -86,18 +81,28 @@ section{
     background: #BC3F3F;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     font-size: 14px;
     font-weight: bold;
     color: #ffffff
-
 }
 
+.logo .logo1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff
+}
+.header .navbar{
+    margin-left: 100px;
+}
 header .navbar a{
+    position: relative;
     /* justify-content:center; */
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 16px;
     border-radius: 10px;
     padding: 10px 10px;
@@ -192,7 +197,10 @@ header .navbar a{
 }
 
 .home{
-    padding: 10px 10%;
+    padding: 20px 10%;
+    /* padding-bottom: 10px; */
+    background: #DCD5D5; 
+    position: sticky
 }
 
 .home .home-slider .slide{
@@ -200,7 +208,7 @@ header .navbar a{
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 80px
 }
 
@@ -257,7 +265,7 @@ header .navbar a{
     /* justify-content: space-between;
     align-items: center;
     padding-left: 200px */
-    padding: 40px 8%;
+    padding: 0px 8%;
     padding-bottom: 10px
 }
 .heading h1{
@@ -281,7 +289,9 @@ header .navbar a{
 }
 
 .categories{
-    text-align: center
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
     /* background: #FFF3F3; */
 }
 
@@ -336,6 +346,7 @@ header .navbar a{
 .must-visit {
     margin-top: 10px;
     padding-bottom: 70px;
+    padding-top: 20px;
     background: #DCD5D5;
 }
 
@@ -362,20 +373,29 @@ header .navbar a{
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     gap: 50px;
     justify-content: center; */
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 20px;
+    margin-top: 20px; */
     /* text-align: center */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .must-visit-container .kotak{
     /* padding: 30px 20px; */
     /* border: 1px solid #000;
     border-radius: 10%; */
-    text-align: center;
+    /* text-align: center; */
     /* background: #DCD5D5 */
+    position: relative;
+    text-align: center;
 }
 
 
@@ -396,15 +416,14 @@ header .navbar a{
     background-size: cover;
     background-position: center;
     background-attachment: fixed; */
-    padding: 40px 8%;
+    padding: 30px;
     display: flex;
-    gap: 110px;
+    gap: 70px;
     justify-content: center
-
     /* display: grid;
-    grid-template-column: repeat(auto-fit,minmax(200px, auto));
+    grid-template-rows:max-content;
     gap: 25px;
-    margin-top: 40px; */   
+    margin-top: 40px;    */
 }
 
 .footer .footer-container p{
@@ -476,7 +495,8 @@ header .navbar a{
 
 .copyright{
     background: #6B3434;
-    margin-top:0.7px
+    margin-top:0.7px;
+    padding: 5px;
 }
 
 .copyright p{
@@ -491,7 +511,7 @@ header .navbar a{
 .destinasi-sejarah{
     position: sticky;
     background-color: #DCD5D5;
-    
+    padding-top: 10px;
 }
 
 .judul h1{
@@ -504,7 +524,7 @@ header .navbar a{
 .sejarah-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 50px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
@@ -535,12 +555,13 @@ header .navbar a{
 .destinasi-alam{
     position: sticky;
     background-color: #DCD5D5;
+    padding-top: 10px;
     
 }
 .alam-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 50px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
@@ -1334,40 +1355,62 @@ header .navbar a{
 
 
 /* media queries */
-@media (max-width:1200px){
-    /* html{
-        font-size: 55%;
-    }
-
-    .header{
-        padding: 20px 30px;
-    } */
-
-    section{
-        padding: 3rem 5%;
-    }
-}
-
-@media (max-width:991px){
+/* laptop */
+@media (max-width:1366px){
     html{
-        font-size: 50%;
-    }
-    section{
-        padding: 3rem 2rem;
+        font-size: 75%;
     }
 
+    section{
+        padding: 5rem 5%;
+    }
 }
 
+/* mobile phone */
 @media (max-width:450px){
     html{
         font-size: 50%;
     }
 
+    .categories-container{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(25 rem, 1fr));
+        gap: 5px;
+    }
+
+    .must-visit-container .kotak{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: max-content;
+        gap: 5px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 100%
+        padding-top: 50px;
+    }
+
+    .footer-box {
+        margin-top: 40px;
+        width: 100%;
+        height: 100%
+    }
 }
 
+/* tablet */
 @media (max-width:758px){
+
+    html{
+        font-size: 62.5%;
+    }
+
     .header .icons #menu-bars{
         display: inline-block;
+        margin-right: 20px;
     }
 
     .header .navbar{
@@ -1397,7 +1440,32 @@ header .navbar a{
 
     .header .search-form{
         width: 90%;
-        right: 20px;
+        right: 2rem;
+    }
+
+    .header #search-button{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header .navbar-extra{
+        margin-left: 120px;
+    }
+
+    .must-visit-container .kotak{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(25 rem, 1fr));
+        gap: 5px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        /* padding: 100px; */
+        grid-template-columns: max-content;
+        gap: 5px;
     }
 }
-

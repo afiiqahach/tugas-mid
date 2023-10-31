@@ -17,6 +17,7 @@ document.querySelector('#search-button').onclick = (e) => {
   e.preventDefault();
 };
 
+
 const sb = document.querySelector('#search-button');
 
 document.addEventListener('click', function(e) {
