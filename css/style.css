@@ -1307,6 +1307,11 @@ header .navbar a{
 }
 /* tangkuban perahu ends */
 
+.source a{
+    color: #673C3C;
+    font-size: 15px;
+}
+
 
 
 
@@ -1390,7 +1395,7 @@ header .navbar a{
 
     .footer{
         width: 100%;
-        height: 100%
+        height: 100%;
         padding-top: 50px;
     }
 
